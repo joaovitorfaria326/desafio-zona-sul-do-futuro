@@ -1,0 +1,58 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/* Estilos gerais da página */
+body {
+font-family: 'Poppins', sans-serif; /* fonte obrigatória */
+background-color: #f0f4f8; /* cor de fundo obrigatória */
+color: #000000;
+margin: 0;
+padding: 20px;
+}
+/* Cabeçalho */
+header {
+text-align: center;
+background-color: #79ceff;
+color: rgb(0, 0, 0);
+padding: 30px;
+border-radius: 12px;
+margin-bottom: 30px;
+}
+/* Imagens — obrigatório ter pelo menos um estilo de imagem */
+img {
+width: 100%;
+max-width: 600px;
+border-radius: 10px; /* estilo de imagem obrigatório */
+border: 3px solid #1a73e8;
+display: block;
+margin: 16px auto;
+}
+/* Seções */
+section {
+background-color: white;
+border-radius: 10px;
+padding: 24px;
+margin-bottom: 24px;
+}
+/* Links */
+a {
+color: #1a73e8;
+font-weight: bold;
+}
+/* Blockquote dos prompts */
+blockquote {
+background-color: #f5f5f5;
+border-left: 4px solid #1a73e8;
+padding: 12px 20px;
+margin: 12px 0;
+font-style: italic;
+}
+/* Rodapé */
+footer {
+text-align: center;
+padding: 20px;
+color: #666;
+font-size: 0.9em;
+}
+
+
+
